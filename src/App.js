@@ -1,10 +1,13 @@
 
 import './App.css';
+import HeroSection from './components/HeroSection';
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <h1>raf di martino</h1>
+      <Navbar />
+      <HeroSection />
     </div>
   );
 }
