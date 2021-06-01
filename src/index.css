@@ -33,6 +33,7 @@ nav p {
   font-size: .8rem;
   color: rgb(200,165,106);
   color: #FFFFFF;
+  color: rgb(200,165,106);
 }
 
 .heroSection {
@@ -45,7 +46,7 @@ nav p {
 }
 
 .fullName {
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   width: 85%;
 }
 
@@ -55,12 +56,26 @@ nav p {
   
 }
 
+.aboutWrapper {
+  width: 85%;
+}
+
 .about {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
   text-align: right;
+  margin: 2rem 0 0;
+}
+
+.socialWrapper {
+  display: flex;
   width: 85%;
   margin-top: 2rem;
+}
+
+.social {
+  font-size: 1.7rem;
+  flex-basis: 15%;
 }
 
 /*font-family: 'Josefin Sans', sans-serif;
