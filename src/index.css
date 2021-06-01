@@ -25,7 +25,7 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2rem 0 0;
+  height: 15vh;
 }
 
 nav p {
@@ -38,7 +38,7 @@ nav p {
 
 .heroSection {
   color: #FFFFFF;
-  height: 75vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,18 +64,34 @@ nav p {
   font-family: 'Open Sans', sans-serif;
   font-size: 0.9rem;
   text-align: right;
-  margin: 2rem 0 0;
+  margin: 3rem 0 0;
 }
 
 .socialWrapper {
   display: flex;
   width: 85%;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .social {
   font-size: 1.7rem;
   flex-basis: 15%;
+}
+
+.footer {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  /*border-top: 1px solid rgb(200,165,106);*/
+}
+
+.reactLogo {
+  font-size: 1.2rem;
+  margin-left: 0.2rem;
 }
 
 /*font-family: 'Josefin Sans', sans-serif;
