@@ -1,1 +1,32 @@
+:root {
+    --black: rgb(47, 48, 51);
+    --white: #f8f8f8;
+    --gold: rgb(200,165,106);
+    --copper: rgb(231, 147, 82);;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap');
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--black);
+  }
+  
+  .App {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
 
+  

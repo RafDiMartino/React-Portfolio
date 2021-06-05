@@ -1,16 +1,19 @@
 
 import './App.css';
 import Footer from './components/Footer';
-import HeroSection from './components/HeroSection';
+import MainSection from './components/MainSection';
 import Navbar from "./components/Navbar";
+import {BrowserRouter as Router} from "react-router-dom"
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <HeroSection />
-      <Footer />
-    </div>
+    <Router >
+      <div className="App">
+        <Navbar />
+        <MainSection />
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
