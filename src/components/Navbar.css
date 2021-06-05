@@ -31,14 +31,21 @@ nav ul{
   color: var(--white);
 }
 
+nav ul li ul {
+  width: 5rem;
+}
+
 ul li ul li {
   color: var(--white);
-  padding: 0.8rem;
+  padding: 0.7rem 0;
+}
+
+ul li ul li:nth-child(1) {
+  padding-top: 1.5rem;
 }
 
 ul li ul li:hover {
   color: var(--gold);
-  padding: 0.8rem;
 }
 
 nav ul li ul {

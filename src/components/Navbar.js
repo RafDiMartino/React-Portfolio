@@ -10,14 +10,14 @@ function Navbar() {
                 <li>HOME</li>
                 <li>PROJECTS <FaCaretDown/>
                     <ul className="projects">
-                        <li>React</li>
-                        <li>Html css js</li>
+                        <li>REACT</li>
+                        <li>HTML CSS JS</li>
                     </ul>
                 </li>
                 <li>CONTACTS <FaCaretDown/>
                     <ul className="contacts">
-                        <li>Email</li>
-                        <li>Phone</li>
+                        <li>EMAIL</li>
+                        <li>PHONE</li>
                     </ul>
                 </li>
             </ul>
