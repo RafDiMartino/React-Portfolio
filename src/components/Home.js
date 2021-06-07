@@ -1,7 +1,8 @@
 import "../App.css"
-import "./MainSection.css"
+import "./Home.css"
 import { FaLinkedinIn, FaGithub, FaCodepen } from "react-icons/fa";
-
+import { MdMailOutline } from "react-icons/md";
+ 
 
 function HeroSection() {
     return (
@@ -16,9 +17,10 @@ function HeroSection() {
                 </div>
             </div>
             <div className="socialWrapper">
-                <FaLinkedinIn className="social linkedin"/> 
-                <FaGithub className="social github"/>
-                <FaCodepen className="social codepen"/>
+                <a href="https://www.linkedin.com/in/raffaele-di-martino/" target="_blank" rel="noreferrer" className="social linkedin"><FaLinkedinIn /></a>
+                <a href="https://github.com/RafDiMartino/" target="_blank" rel="noreferrer" className="social github"><FaGithub /></a>
+                <a href="https://codepen.io/R4F" target="_blank" rel="noreferrer" className="social codepen"><FaCodepen /></a>
+                <a href="mailto:r.dimartino.uk@gmail.com" className="social email"><MdMailOutline /></a>
             </div>
         </div>
     )

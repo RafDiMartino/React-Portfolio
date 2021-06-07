@@ -7,17 +7,17 @@ function Navbar() {
     return (
         <nav>
             <ul className="nav-wrapper">
-                <li>HOME</li>
+                <li><Link to="/" className="nav-links">HOME</Link></li>
                 <li>PROJECTS <FaCaretDown/>
                     <ul className="projects">
-                        <li>REACT</li>
-                        <li>HTML CSS JS</li>
+                        <li><Link  to="react-projects" className="nav-links-project">REACT</Link></li>
+                        <li><Link  to="html-css-js-projects" className="nav-links-project">HTML CSS JS</Link></li>
                     </ul>
                 </li>
-                <li>CONTACTS <FaCaretDown/>
+                <li>TBC <FaCaretDown/>
                     <ul className="contacts">
-                        <li>EMAIL</li>
-                        <li>PHONE</li>
+                        <li></li>
+                        <li></li>
                     </ul>
                 </li>
             </ul>
