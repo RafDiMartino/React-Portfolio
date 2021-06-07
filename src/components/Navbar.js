@@ -2,6 +2,7 @@ import "./Navbar.css"
 import { Link } from "react-router-dom"
 import { FaCaretDown } from "react-icons/fa"
 
+
 function Navbar() {  
 
     return (
@@ -14,12 +15,7 @@ function Navbar() {
                         <li><Link  to="html-css-js-projects" className="nav-links-project">HTML CSS JS</Link></li>
                     </ul>
                 </li>
-                <li>TBC <FaCaretDown/>
-                    <ul className="contacts">
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </li>
+                <li><a href="mailto:r.dimartino.uk@gmail.com" className="nav-links">CONTACT</a></li>
             </ul>
         </nav>
     )

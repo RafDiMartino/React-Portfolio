@@ -46,22 +46,16 @@
   flex-basis: 15%;
 }
 
-.email {
-  font-size: 2.2rem;
-}
-
 .linkedin,
 .github,
-.codepen,
-.email {
+.codepen {
   color: var(--white);
   cursor: pointer;
 }
 
 .linkedin:hover,
 .github:hover,
-.codepen:hover,
-.email:hover {
+.codepen:hover {
   color: var(--gold);
 }
   
@@ -78,9 +72,7 @@
   .social {
     font-size: 2.2rem;
   }
-  .email {
-    font-size: 2.6rem;
-  }
+
 }
   
 @media (min-width: 600px) {
@@ -143,9 +135,6 @@
   .social {
     font-size: 2.5rem;
     flex-basis: 4.5rem;
-  }
-  .email {
-    font-size: 2.9rem;
   }
 
   .name:hover,

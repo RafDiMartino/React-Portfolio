@@ -29,10 +29,6 @@ ul li {
   color: var(--white);
 }
 
-nav ul li ul {
-  width: 5rem;
-}
-
 ul li ul li {
   padding: 0.7rem 0;
 }
@@ -41,12 +37,22 @@ ul li ul li:nth-child(1) {
   padding-top: 1.5rem;
 }
 
+ul li ul li:last-child {
+  padding-bottom: 1.5rem;
+}
+
 nav ul li ul {
+ 
   display: none;
 }
 
 nav ul li:hover ul {
   display: block;
+  background-color: var(--black);
+  border-left: 1px solid var(--gold);
+  border-right: 1px solid var(--gold);
+  border-bottom: 1px solid var(--gold);
+  border-radius: 0 0 5px 5px;
 }
 
 .nav-links {

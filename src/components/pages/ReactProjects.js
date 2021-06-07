@@ -1,8 +1,13 @@
+import SectionTitle from "./SectionTitle"
+import { SiReact } from "react-icons/si"
 
 function ReactProjects() {
     return (
         <div>
-            <h1>React Projects</h1>
+            <SectionTitle 
+                name="React Projects"
+                icon1={<SiReact/>}
+            />
         </div>
     )
 }
