@@ -1,16 +1,33 @@
+import "./SectionTitle.css"
 import SectionTitle from "./SectionTitle"
 import { SiJavascript, SiHtml5, SiCss3 } from "react-icons/si"
+import Card from "./Card"
 
 function HtmlCssJsProjects() {
     return (
-        <div>
+        <div className="wrapper">
             <SectionTitle 
-                name="Html Css Js Projects"
-                icon1={<SiHtml5/>}
-                icon2={<SiCss3/>}
-                icon3={<SiJavascript/>}
+                icon1={<SiHtml5 />} 
+                icon2={<SiCss3 />} 
+                icon3={<SiJavascript />}
+                title="PROJECTS"
             />
+            <div>
+                <Card
+                    title="Counter App"
+                    description="bsblsfkbz"
+                />
+                <Card
+                    title="The Art of War Quote Generator"
+                    description="bsblsfkbz"
+                />
+                <Card
+                    title="The Art of War Quote Generator"
+                    description="bsblsfkbz"
+                />
+            </div>
         </div>
+        
     )
 }
 

@@ -19,7 +19,8 @@
 .fullName {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 2.5rem;
-  padding-top: 3rem;
+  font-weight: 500;
+  padding-top: 4rem;
 }
   
 .fullName p {

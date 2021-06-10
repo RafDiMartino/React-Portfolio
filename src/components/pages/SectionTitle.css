@@ -1,3 +1,23 @@
+.wrapper {
+    margin: 9rem 0 9rem;
+}
+
+.title-container {
+    margin-bottom: 4rem;
+}
+
 h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.icons-container {
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.icon {
+    padding: 0.5rem;
 }

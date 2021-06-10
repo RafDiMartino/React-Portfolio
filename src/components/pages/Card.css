@@ -1,0 +1,7 @@
+.project-card  {
+    border: 1px solid var(--gold);
+    width: 20rem;
+    height: 20rem;
+    margin: 1rem 0 1rem;
+    color: var(--white);
+}
