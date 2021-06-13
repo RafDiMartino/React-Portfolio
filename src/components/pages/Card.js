@@ -1,5 +1,4 @@
 import "./Card.css"
-import { MdKeyboardArrowDown } from "react-icons/md"
 
 
 function Card(props) {
@@ -8,14 +7,17 @@ function Card(props) {
             <div className="img-container">
                 <img src={props.imageUrl} alt="quote generator" />
             </div>
-            <div className="project-title-container">
-                <h3 className="title">{props.title}</h3>
-                <div className="arrow-down"><MdKeyboardArrowDown /></div>
-            </div>
-            <div className="text-container">
-                <p className="description">{props.description}</p>
-                <div className="repo-links">{props.repoLink}</div>
-                <button className="btn">{props.btn}</button>
+            <div className="text-wrapper">
+                <h2 className="title">{props.title}</h2>
+                
+                <div className="text-container">
+                    <p className="description">{props.description}</p>
+                    <div className="project-links">
+                        <button className="btn">{props.btn}</button>
+                        <div className="repo-links">{props.repoLink}</div>
+                        
+                    </div>
+                </div>
             </div>
         </div>
     )

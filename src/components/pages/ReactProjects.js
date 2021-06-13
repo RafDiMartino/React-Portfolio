@@ -2,8 +2,11 @@ import "./SectionTitle.css"
 import { SiReact } from "react-icons/si"
 import Card from "./Card"
 import SectionTitle from "./SectionTitle"
-import Quote from "../react-projects-imgs/quoteGenerator.PNG"
+import Quote from "../react-projects-imgs/quote-gen.png"
+import CounterApp from "../react-projects-imgs/counter-app.PNG"
 import { FaGithub } from "react-icons/fa"
+import Card2 from "./Card2"
+import "./ReactProjects.css"
 
 function ReactProjects() {
     return (
@@ -12,13 +15,20 @@ function ReactProjects() {
                 icon1={<SiReact />}
                 title="PROJECTS"
             />
-            <div>
+            <div className="projects-container">
                 <Card
                     imageUrl={Quote}
                     title="The Art of War Quote Generator"
                     description="My version of the Random Quote Machine Generator. Practicing with React hooks useState, useEffect and fetch data from a gist repositoy"
-                    repoLink={<a href="https://github.com/RafDiMartino/the-art-of-war-random-quote-generator/tree/master" target="_blank" rel="noreferrer"><FaGithub className="github" /></a>}
-                    btn={<a href="https://rafdimartino.github.io/the-art-of-war-random-quote-generator/" target="_blank" rel="noreferrer">View More</a>}
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/the-art-of-war-random-quote-generator/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                    btn={<a className="card-anchor" href="https://rafdimartino.github.io/the-art-of-war-random-quote-generator/" target="_blank" rel="noreferrer">View project</a>}
+                />
+                <Card2
+                    imageUrl={CounterApp}
+                    title="Counter App"
+                    description="React counter app. Practicing with react hooks useState and useEffect"
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/react-counter-app/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                    btn={<a className="card-anchor" href="https://rafdimartino.github.io/react-counter-app/" target="_blank" rel="noreferrer">View project</a>}
                 />
             </div>
         </div>
