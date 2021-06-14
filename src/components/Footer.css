@@ -11,7 +11,14 @@
     padding: 2rem 0 3rem;
   }
   
-  .reactLogo {
-    font-size: 1.2rem;
-    margin-left: 0.2rem;
-  }
+.reactLogo {
+  font-size: 1.2rem;
+  margin-left: .2rem;
+}
+
+.githubLogo {
+  font-size: 1.2rem;
+  margin-left: 0.3rem;
+  margin-top: .25rem;
+  color: var(--gold);
+}

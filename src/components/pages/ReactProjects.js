@@ -1,11 +1,12 @@
 import "./SectionTitle.css"
 import { SiReact } from "react-icons/si"
 import SectionTitle from "./SectionTitle"
+import "./ReactProjects.css"
 import Quote from "../react-projects-imgs/quote-gen.png"
 import CounterApp from "../react-projects-imgs/counter-app.PNG"
 import { FaGithub } from "react-icons/fa"
 import Card from "./Card"
-import "./ReactProjects.css"
+
 
 function ReactProjects() {
     return (

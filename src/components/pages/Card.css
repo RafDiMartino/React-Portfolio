@@ -1,7 +1,7 @@
 .card-wrapper {    
     width: 19rem;
     height: 23rem;
-    margin: 2rem;
+    margin: 1rem;
     color: var(--white);
     position: relative;
     border-radius: 5px;
@@ -91,4 +91,16 @@ button:hover{
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+
+@media (min-width: 411px) {
+    .card-wrapper {    
+        width: 22rem;
+        height: 26rem;
+        margin: 1rem;
+    }
+
+    .card-wrapper:hover .description-wrapper {
+        height: 86%;
+    }
 }

@@ -138,17 +138,6 @@
     flex-basis: 4.5rem;
   }
 
-  .name:hover,
-  .surname:hover,
-  .about:hover {
-    color: var(--gold);
-    cursor: default;
-  }
-
-  .footer:hover {
-    color: var(--white);
-    cursor: default;
-  }
 }
   
 @media (min-width: 1440px) {
