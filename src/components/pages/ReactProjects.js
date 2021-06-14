@@ -1,11 +1,10 @@
 import "./SectionTitle.css"
 import { SiReact } from "react-icons/si"
-import Card from "./Card"
 import SectionTitle from "./SectionTitle"
 import Quote from "../react-projects-imgs/quote-gen.png"
 import CounterApp from "../react-projects-imgs/counter-app.PNG"
 import { FaGithub } from "react-icons/fa"
-import Card2 from "./Card2"
+import Card from "./Card"
 import "./ReactProjects.css"
 
 function ReactProjects() {
@@ -23,7 +22,7 @@ function ReactProjects() {
                     repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/the-art-of-war-random-quote-generator/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                     btn={<a className="card-anchor" href="https://rafdimartino.github.io/the-art-of-war-random-quote-generator/" target="_blank" rel="noreferrer">View project</a>}
                 />
-                <Card2
+                <Card
                     imageUrl={CounterApp}
                     title="Counter App"
                     description="React counter app. Practicing with react hooks useState and useEffect"
