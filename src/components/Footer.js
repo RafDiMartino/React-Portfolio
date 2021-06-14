@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
             <p className="madeBy">&copy; 2021 by Raffaele Di Martino | </p>
             <FaReact className="reactLogo"/>
-            <a className="card-anchor" href="https://github.com/RafDiMartino/React-Portfolio/tree/master" target="_blank" rel="noreferrer"><FaGithub className="githubLogo" /></a>
+            <a className="card-anchor" href="https://github.com/RafDiMartino/React-Portfolio/tree/master" target="_blank" rel="noreferrer" aria-label="github repo"><FaGithub className="githubLogo" /></a>
         </div>
     )
 }

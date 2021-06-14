@@ -97,7 +97,7 @@ function HtmlCssJsProjects() {
                 />
                 <Card
                     imageUrl={TributePage}
-                    title="Technical Documentation Page"
+                    title="Tribute Page"
                     description="Tribute Page for Alexander The Great. Practicing Responsive Web Design using Media Queries and Flexbox."
                     repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/Tribute-Page" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                     btn={<a className="card-anchor" href="https://rafdimartino.github.io/Tribute-Page/tribute%20page.html" target="_blank" rel="noreferrer">View project</a>}
