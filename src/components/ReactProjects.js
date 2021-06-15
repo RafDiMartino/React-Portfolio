@@ -1,11 +1,13 @@
 import "./SectionTitle.css"
 import { SiReact } from "react-icons/si"
 import SectionTitle from "./SectionTitle"
-import "./ReactProjects.css"
-import Quote from "../react-projects-imgs/quote-gen.png"
-import CounterApp from "../react-projects-imgs/counter-app.PNG"
+import "./Projects.css"
 import { FaGithub } from "react-icons/fa"
 import Card from "./Card"
+import Quote from "./react-projects-imgs/quote-gen.png"
+import CounterApp from "./react-projects-imgs/counter-app.PNG"
+import ReactPortfolio from "./react-projects-imgs/react-portfolio.PNG"
+
 
 
 function ReactProjects() {
@@ -16,6 +18,13 @@ function ReactProjects() {
                 title="PROJECTS"
             />
             <div className="projects-container">
+                <Card
+                    imageUrl={ReactPortfolio}
+                    title="React Portfolio"
+                    description="Second version of my portfolio, made with react"
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/React-Portfolio/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                    btn={<a className="card-anchor" href="https://rafdimartino.com/" target="_blank" rel="noreferrer">View project</a>}
+                />
                 <Card
                     imageUrl={Quote}
                     title="The Art of War Quote Generator"

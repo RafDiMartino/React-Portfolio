@@ -48,15 +48,13 @@
 }
 
 .linkedin,
-.github,
-.codepen {
+.github {
   color: var(--white);
   cursor: pointer;
 }
 
 .linkedin:hover,
-.github:hover,
-.codepen:hover {
+.github:hover {
   color: var(--gold);
 }
   

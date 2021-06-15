@@ -1,14 +1,14 @@
 .wrapper {
-    margin: 9rem 0 9rem;
+    margin: 12rem 0 12rem;
 }
 
 .title-container {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
 }
 
 h1 {
     font-size: 2rem;
-    color: white;
+    color: var(--white);
     font-family: 'Josefin Sans', sans-serif;
 }
 

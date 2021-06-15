@@ -2,8 +2,8 @@
 import './App.css';
 import Footer from './components/Footer';
 import Home from './components/Home';
-import ReactProjects from "./components/pages/ReactProjects"
-import HtmlCssJsProjects from "./components/pages/HtmlCssJsProjects"
+import ReactProjects from "./components/ReactProjects"
+import HtmlCssJsProjects from "./components/HtmlCssJsProjects"
 import Navbar from "./components/Navbar";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 

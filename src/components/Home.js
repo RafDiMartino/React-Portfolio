@@ -19,7 +19,6 @@ function HeroSection() {
             <div className="socialWrapper">
                 <a href="https://www.linkedin.com/in/raffaele-di-martino/" target="_blank" rel="noreferrer" className="social linkedin" aria-label="linkedin"><FaLinkedinIn /></a>
                 <a href="https://github.com/RafDiMartino/" target="_blank" rel="noreferrer" className="social github" aria-label="github"><FaGithub /></a>
-                <a href="https://codepen.io/R4F" target="_blank" rel="noreferrer" className="social codepen" aria-label="codepen"><FaCodepen /></a>
             </div>
         </main>
     )

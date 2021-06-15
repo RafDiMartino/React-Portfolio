@@ -3,17 +3,17 @@ import SectionTitle from "./SectionTitle"
 import { SiJavascript, SiHtml5, SiCss3 } from "react-icons/si"
 import Card from "./Card"
 import { FaGithub } from "react-icons/fa" 
-import Calculator from "../html-css-js-projects-imgs/calculator.PNG"
-import Lab from "../html-css-js-projects-imgs/laboratorio-creativo.PNG"
-import Cipher from "../html-css-js-projects-imgs/cipher.PNG"
-import Clock from "../html-css-js-projects-imgs/digital-clock.PNG"
-import Piano from "../html-css-js-projects-imgs/virtual-piano.PNG"
-import FlashCards from "../html-css-js-projects-imgs/flash-card.PNG"
-import DocPage from "../html-css-js-projects-imgs/doc-page.PNG"
-import LandingPage from "../html-css-js-projects-imgs/landing-page.PNG"
-import SurveyForm from "../html-css-js-projects-imgs/survey-form.PNG"
-import TributePage from "../html-css-js-projects-imgs/tribute-page.PNG"
-import Portfolio from "../html-css-js-projects-imgs/portfolio.PNG"
+import Calculator from "./html-css-js-projects-imgs/calculator.PNG"
+import Lab from "./html-css-js-projects-imgs/laboratorio-creativo.PNG"
+import Cipher from "./html-css-js-projects-imgs/cipher.PNG"
+import Clock from "./html-css-js-projects-imgs/digital-clock.PNG"
+import Piano from "./html-css-js-projects-imgs/virtual-piano.PNG"
+import FlashCards from "./html-css-js-projects-imgs/flash-card.PNG"
+import DocPage from "./html-css-js-projects-imgs/doc-page.PNG"
+import LandingPage from "./html-css-js-projects-imgs/landing-page.PNG"
+import SurveyForm from "./html-css-js-projects-imgs/survey-form.PNG"
+import TributePage from "./html-css-js-projects-imgs/tribute-page.PNG"
+import Portfolio from "./html-css-js-projects-imgs/portfolio.PNG"
 
 function HtmlCssJsProjects() {
     return (
@@ -28,14 +28,14 @@ function HtmlCssJsProjects() {
                 <Card
                     imageUrl={Lab}
                     title="Laboratorio Creativo"
-                    description="Mobile First Design website, for an artisan that customise shoes, candles and more.."
+                    description="Mobile First Design website, for an artisan who customises shoes, candles and more..."
                     repoLink={<a className="card-anchor" href="https://github.com/LaboratorioCreativo/LaboratorioCreativo.github.io" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                     btn={<a className="card-anchor" href="https://laboratoriocreativo.github.io/" target="_blank" rel="noreferrer">View project</a>}
                 />
                 <Card
                     imageUrl={Portfolio}
                     title="Personal Portfolio Page"
-                    description="First version of my portfolio website, made with Html Css and JavaScript "
+                    description="First version of my portfolio website, made with Html, Css and JavaScript "
                     repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/RafDiMartino.github.io" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                     btn={<a className="card-anchor" href="https://rafdimartino.github.io/" target="_blank" rel="noreferrer">View project</a>}
                 />
