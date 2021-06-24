@@ -1,6 +1,6 @@
 import "../App.css"
 import "./Home.css"
-import { FaLinkedinIn, FaGithub, FaCodepen } from "react-icons/fa"
+import { FaLinkedinIn, FaGithub } from "react-icons/fa"
 
  
 
