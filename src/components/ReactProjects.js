@@ -30,7 +30,7 @@ function ReactProjects() {
                 <Card
                     imageUrl={TaskManager}
                     title="Task Manager"
-                    description="In this Progressive Web App I used Context for state management and Material UI"
+                    description="In this Progressive Web App, I used Context for state management and Material UI"
                     repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/task-manager/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                     btn={<a className="card-anchor" href="http://rafdimartino.github.io/task-manager" target="_blank" rel="noreferrer">View project</a>}
                 />
