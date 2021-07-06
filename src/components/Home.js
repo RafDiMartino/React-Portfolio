@@ -13,7 +13,7 @@ function HeroSection() {
                     <p className="surname">DI MARTINO</p>
                 </h1>
                 <div className="aboutWrapper">
-                    <p className="about">Frontend Web Developer with an Art & Design background </p>
+                    <p className="about">Frontend Developer with an Art & Design background </p>
                 </div>
             </div>
             <div className="socialWrapper">
