@@ -8,7 +8,7 @@ import Quote from "./react-projects-imgs/quote-gen.png"
 import CounterApp from "./react-projects-imgs/counter-app.PNG"
 import ReactPortfolio from "./react-projects-imgs/react-portfolio.PNG"
 import WorkInProgress from "./react-projects-imgs/WorkInProgress3.jpg"
-import TaskManager from "./react-projects-imgs/Task-Manager-dark.PNG"
+import TaskManager from "./react-projects-imgs/task-manager.PNG"
 
 
 
