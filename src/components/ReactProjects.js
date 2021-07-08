@@ -24,8 +24,8 @@ function ReactProjects() {
                     imageUrl={WorkInProgress}
                     title="Weather App"
                     description="Work in Progress..."
-                    repoLink={<a className="card-anchor" href="#" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
-                    btn={<a className="card-anchor" href="#" target="_blank" rel="noreferrer">View project</a>}
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/Weather-App/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                    btn={<a className="card-anchor" href="https://rafdimartino.github.io/Weather-App/" target="_blank" rel="noreferrer">View project</a>}
                 />
                 <Card
                     imageUrl={TaskManager}
