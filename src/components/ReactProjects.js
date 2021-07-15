@@ -9,7 +9,7 @@ import CounterApp from "./react-projects-imgs/counter-app.PNG"
 import ReactPortfolio from "./react-projects-imgs/react-portfolio.PNG"
 import WorkInProgress from "./react-projects-imgs/WorkInProgress3.jpg"
 import TaskManager from "./react-projects-imgs/task-manager.PNG"
-
+import WeatherApp from "./react-projects-imgs/weather-app.PNG"
 
 
 function ReactProjects() {
@@ -21,9 +21,9 @@ function ReactProjects() {
             />
             <div className="projects-container">
                 <Card
-                    imageUrl={WorkInProgress}
+                    imageUrl={WeatherApp}
                     title="Weather App"
-                    description="Work in Progress..."
+                    description="In this Progressive Web App, I fetch data from the openweathermap API using Axios, to display the current weather of the City serched"
                     repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/Weather-App/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                     btn={<a className="card-anchor" href="https://rafdimartino.github.io/Weather-App/" target="_blank" rel="noreferrer">View project</a>}
                 />
