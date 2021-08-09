@@ -1,18 +1,18 @@
 import './Card.css'
 
-function Card(props) {
+function Card({imageUrl, description, btn, repoLink, title}) {
     return (
         <div className="card-wrapper">
             <div className="img-wrapper">
-                <img src={props.imageUrl} alt="quote generator" />
+                <img src={imageUrl} alt="quote generator" />
                 <div className="description-wrapper">
-                    <p className="description">{props.description}</p>
+                    <p className="description">{description}</p>
                     <div className="project-links">
-                    <button className="btn">{props.btn}</button>
-                    <div className="repo-links">{props.repoLink}</div>
+                    <button className="btn">{btn}</button>
+                    <div className="repo-links">{repoLink}</div>
                     </div>
                 </div>
-                <h2 className="title">{props.title}</h2>
+                <h2 className="title">{title}</h2>
             </div>
 
         </div>
