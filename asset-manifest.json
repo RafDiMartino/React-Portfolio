@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.36251a13.chunk.css",
-    "main.js": "/static/js/main.3b424904.chunk.js",
-    "main.js.map": "/static/js/main.3b424904.chunk.js.map",
+    "main.js": "/static/js/main.66558348.chunk.js",
+    "main.js.map": "/static/js/main.66558348.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.4827631d.js",
     "runtime-main.js.map": "/static/js/runtime-main.4827631d.js.map",
     "static/js/2.39437c11.chunk.js": "/static/js/2.39437c11.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.36251a13.chunk.css.map": "/static/css/main.36251a13.chunk.css.map",
     "static/js/2.39437c11.chunk.js.LICENSE.txt": "/static/js/2.39437c11.chunk.js.LICENSE.txt",
     "static/media/WorkInProgress3.167cfb36.jpg": "/static/media/WorkInProgress3.167cfb36.jpg",
-    "static/media/calculator.2c437398.PNG": "/static/media/calculator.2c437398.PNG",
+    "static/media/calculator.2be8ea3a.PNG": "/static/media/calculator.2be8ea3a.PNG",
     "static/media/cipher.2d36a922.PNG": "/static/media/cipher.2d36a922.PNG",
     "static/media/counter-app.f9d8c958.PNG": "/static/media/counter-app.f9d8c958.PNG",
     "static/media/digital-clock.5945f97f.PNG": "/static/media/digital-clock.5945f97f.PNG",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.4827631d.js",
     "static/js/2.39437c11.chunk.js",
     "static/css/main.36251a13.chunk.css",
-    "static/js/main.3b424904.chunk.js"
+    "static/js/main.66558348.chunk.js"
   ]
 }
