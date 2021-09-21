@@ -1,0 +1,71 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;;
+    color: var(--gold);
+    position: sticky;
+    top: 0;
+    background-color: var(--black2);
+    border-bottom: 1px solid var(--gold);
+    z-index: 1;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home, .projects, .contact {
+    padding-top: 1rem;
+    width: 7rem;
+    font-size:0.9rem;
+}
+
+.nav-wrapper div:hover {
+    color: var(--white);
+}
+
+.projects {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+.open-dropdown {
+    position: absolute;
+    top: calc(100% + 1.4rem);
+    background-color: var(--black2);
+    border-left: 1px solid var(--gold);
+    border-right: 1px solid var(--gold);
+    border-bottom: 1px solid var(--gold);
+    border-radius: 0 0 5px 5px;
+    width: 7rem;
+}
+
+.open-dropdown p {
+    padding-bottom: 1rem;
+    color: var(--white);
+}
+
+.open-dropdown .react {
+    padding-top: 1rem;
+}
+
+.open-dropdown p:hover {
+    color: var(--gold);
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .nav-wrapper {
+        width: 30%;
+
+    }
+}

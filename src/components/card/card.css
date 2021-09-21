@@ -1,15 +1,17 @@
 .card-wrapper {    
     width: 19rem;
     height: 23rem;
-    margin: 1rem;
+    margin: 1.5rem 1rem;
     color: var(--white);
     position: relative;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.233) 1px 3px 5px 1px, rgba(0, 0, 0, 0.233) -1px 3px 5px 1px;
     background-color: rgba(0, 0, 0, 0.151);
+    background-color: var(--black2);
 }
 
 .img-wrapper{
+    position: relative;
     width: 100%;
     height: auto;
     
@@ -39,7 +41,7 @@
 }
 
 .card-wrapper:hover .description-wrapper {
-    height: 84%;
+    height: 100%;
 }
 
 .card-wrapper:hover .title {
@@ -49,7 +51,7 @@
 .title {
     padding-top: 0.8rem;
     font-size: 1.2rem;
-    color: rgb(235, 235, 235);
+    color: var(--white);
 }
 
 .description {
@@ -70,13 +72,11 @@
     height: auto;
 }
 
-.card-anchor {
-    text-decoration: none;
-}
-
+.card-anchor,
 .card-anchor:link,    
 .card-anchor:visited {
     color: black;
+    text-decoration: none;
 }
 
 button {
@@ -96,19 +96,22 @@ button:hover{
     width: 100%;
 }
 
+@media (min-width: 375px) {
+    .card-wrapper {    
+        width: 22.5rem;
+        height: 27rem;  
+    }
+}
+
 @media (min-width: 411px) {
     .card-wrapper {    
-        width: 22rem;
-        height: 26rem;
-    }
-
-    .card-wrapper:hover .description-wrapper {
-        height: 86%;
+        width: 24rem;
+        height: 28.5rem;  
     }
 }
 
 @media (min-width: 1024px) {
-    .card-wrapper {    
+    .card-wrapper {  
         margin: 1.5rem;
     }
 

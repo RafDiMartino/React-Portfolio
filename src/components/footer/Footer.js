@@ -1,4 +1,4 @@
-import "./Footer.css"
+import "./footer.css"
 import { FaReact } from "react-icons/fa"
 
 

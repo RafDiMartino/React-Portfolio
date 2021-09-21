@@ -1,5 +1,7 @@
 :root {
   --black: rgb(47, 48, 51);
+  --black2: rgba(44, 44, 44, 0.966);
+  /* --black2: rgba(85, 88, 99, 0.966); */
   --white: #f8f8f8;
   --gold: rgb(200,165,106);
 }
@@ -7,12 +9,13 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  text-decoration: none;
 }
 
 
 ::-webkit-scrollbar {
   width: 0.5rem;
-  background: var(--black);
+  background: var(--black2);
 }
 
 ::-webkit-scrollbar-thumb {
@@ -36,13 +39,15 @@ body {
 }
 
 .App {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh;
+}
+
+a {
+  color: var(--gold);
 }
 
   

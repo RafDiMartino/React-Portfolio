@@ -1,23 +1,23 @@
-import "./SectionTitle.css"
-import SectionTitle from "./SectionTitle"
+import "../components/section-title/section-title.css"
+import SectionTitle from "../components/section-title/SectionTitle"
 import { SiJavascript, SiHtml5, SiCss3 } from "react-icons/si"
-import Card from "./Card"
+import Card from "../components/card/Card"
 import { FaGithub } from "react-icons/fa" 
-import Calculator from "./html-css-js-projects-imgs/calculator.PNG"
-import Lab from "./html-css-js-projects-imgs/laboratorio-creativo.PNG"
-import Cipher from "./html-css-js-projects-imgs/cipher.PNG"
-import Clock from "./html-css-js-projects-imgs/digital-clock.PNG"
-import Piano from "./html-css-js-projects-imgs/virtual-piano.PNG"
-import FlashCards from "./html-css-js-projects-imgs/flash-card.PNG"
-import DocPage from "./html-css-js-projects-imgs/doc-page.PNG"
-import LandingPage from "./html-css-js-projects-imgs/landing-page.PNG"
-import SurveyForm from "./html-css-js-projects-imgs/survey-form.PNG"
-import TributePage from "./html-css-js-projects-imgs/tribute-page.PNG"
-import Portfolio from "./html-css-js-projects-imgs/portfolio.PNG"
+import Calculator from "../assets/html-css-js-projects-imgs/calculator.PNG"
+import Lab from "../assets/html-css-js-projects-imgs/laboratorio-creativo.PNG"
+import Cipher from "../assets/html-css-js-projects-imgs/cipher.PNG"
+import Clock from "../assets/html-css-js-projects-imgs/digital-clock.PNG"
+import Piano from "../assets/html-css-js-projects-imgs/virtual-piano.PNG"
+import FlashCards from "../assets/html-css-js-projects-imgs/flash-card.PNG"
+import DocPage from "../assets/html-css-js-projects-imgs/doc-page.PNG"
+import LandingPage from "../assets/html-css-js-projects-imgs/landing-page.PNG"
+import SurveyForm from "../assets/html-css-js-projects-imgs/survey-form.PNG"
+import TributePage from "../assets/html-css-js-projects-imgs/tribute-page.PNG"
+import Portfolio from "../assets/html-css-js-projects-imgs/portfolio.PNG"
 
 function HtmlCssJsProjects() {
     return (
-        <div className="wrapper">
+        <div>
             <SectionTitle 
                 icon1={<SiHtml5 />} 
                 icon2={<SiCss3 />} 

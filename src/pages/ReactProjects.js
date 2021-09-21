@@ -1,15 +1,15 @@
-import "./SectionTitle.css"
+import "../components/section-title/section-title.css"
 import { SiReact } from "react-icons/si"
-import SectionTitle from "./SectionTitle"
-import "./Projects.css"
+import SectionTitle from "../components/section-title/SectionTitle"
+import "../styles/projects.css"
 import { FaGithub } from "react-icons/fa"
-import Card from "./Card"
-import Quote from "./react-projects-imgs/quote-gen.png"
-import CounterApp from "./react-projects-imgs/counter-app.PNG"
-import ReactPortfolio from "./react-projects-imgs/react-portfolio.PNG"
-import WorkInProgress from "./react-projects-imgs/WorkInProgress3.jpg"
-import TaskManager from "./react-projects-imgs/task-manager.PNG"
-import WeatherApp from "./react-projects-imgs/weather-app.PNG"
+import Card from "../components/card/Card"
+import Quote from "../assets/react-projects-imgs/quote-gen.png"
+import CounterApp from "../assets/react-projects-imgs/counter-app.PNG"
+import ReactPortfolio from "../assets/react-projects-imgs/react-portfolio.PNG"
+import WorkInProgress from "../assets/react-projects-imgs/WorkInProgress3.jpg"
+import TaskManager from "../assets/react-projects-imgs/task-manager.PNG"
+import WeatherApp from "../assets/react-projects-imgs/weather-app.PNG"
 
 
 function ReactProjects() {
@@ -20,6 +20,13 @@ function ReactProjects() {
                 title="PROJECTS"
             />
             <div className="projects-container">
+                <Card
+                    imageUrl={WorkInProgress}
+                    title="Creative Lab"
+                    description="Work in Progress"
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/creative-lab/tree/master" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                    btn={<a className="card-anchor" href="https://rafdimartino.github.io/creative-lab/" target="_blank" rel="noreferrer">View project</a>}
+                />
                 <Card
                     imageUrl={WeatherApp}
                     title="Weather App"
