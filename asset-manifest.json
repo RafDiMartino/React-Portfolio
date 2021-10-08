@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.e183f7b4.chunk.css",
-    "main.js": "/static/js/main.dfec1670.chunk.js",
-    "main.js.map": "/static/js/main.dfec1670.chunk.js.map",
+    "main.css": "/static/css/main.27692111.chunk.css",
+    "main.js": "/static/js/main.4e3c9247.chunk.js",
+    "main.js.map": "/static/js/main.4e3c9247.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e51b4b16.js",
     "runtime-main.js.map": "/static/js/runtime-main.e51b4b16.js.map",
     "static/js/2.06691fe2.chunk.js": "/static/js/2.06691fe2.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.5320fa44.chunk.js": "/static/js/3.5320fa44.chunk.js",
     "static/js/3.5320fa44.chunk.js.map": "/static/js/3.5320fa44.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.e183f7b4.chunk.css.map": "/static/css/main.e183f7b4.chunk.css.map",
+    "static/css/main.27692111.chunk.css.map": "/static/css/main.27692111.chunk.css.map",
     "static/js/2.06691fe2.chunk.js.LICENSE.txt": "/static/js/2.06691fe2.chunk.js.LICENSE.txt",
     "static/media/WorkInProgress3.167cfb36.jpg": "/static/media/WorkInProgress3.167cfb36.jpg",
     "static/media/calculator.2be8ea3a.PNG": "/static/media/calculator.2be8ea3a.PNG",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.e51b4b16.js",
     "static/js/2.06691fe2.chunk.js",
-    "static/css/main.e183f7b4.chunk.css",
-    "static/js/main.dfec1670.chunk.js"
+    "static/css/main.27692111.chunk.css",
+    "static/js/main.4e3c9247.chunk.js"
   ]
 }
