@@ -7,7 +7,6 @@ import WorkInProgress from "../assets/react-projects-imgs/WorkInProgress3.jpg"
 import Duplex from "../assets/featured-projects-imgs/duplex.png"
 import Lab from "../assets/featured-projects-imgs/lab.png"
 
-
 function Home() {
     return (
         <div className="home-wrapper">
