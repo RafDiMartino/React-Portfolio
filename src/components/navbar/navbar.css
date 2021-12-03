@@ -29,13 +29,16 @@ nav {
     color: var(--white);
 }
 
+.nav-wrapper a {
+    color: var(--gold);
+}
+
 .projects {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    
 }
 
 .open-dropdown {
@@ -60,12 +63,14 @@ nav {
 
 .open-dropdown p:hover {
     color: var(--gold);
-
 }
 
 @media only screen and (min-width: 1024px) {
+    nav{
+        height: 5rem;
+    }
+
     .nav-wrapper {
         width: 30%;
-
     }
 }

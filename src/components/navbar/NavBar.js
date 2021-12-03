@@ -41,7 +41,7 @@ const NavBar2 = () => {
                         </div>
                     )}
                 </div>
-                <a href="mailto:r.dimartino.uk@gmail.com"><div className="contact">CONTACT</div></a>
+                <a href="mailto:r.dimartino.uk@gmail.com"><div className="contact">CONTACTS</div></a>
             </div>
         </nav>
     )

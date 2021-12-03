@@ -3,20 +3,16 @@
 }
 
 .heroSection {
-    color: var(--white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 8rem 0;
-    width: 100%;
-  }
-  
-.nameAboutWrapper{
+  color: var(--white);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 10rem 0;
+  width: 100%;
+}
+  
+.nameAboutWrapper{
   width: 85%;
 }
   
@@ -38,11 +34,11 @@
 }
 
 .socialWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 4rem 0 0;
+  padding: 4rem 1rem 0;
+}
+
+.socialWrapper a {
+  margin: 1rem;
 }
   
 .social {
@@ -60,8 +56,30 @@
 .github:hover {
   color: var(--gold);
 }
+
+.featured-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black2);
+  color: var(--white);
+  padding: 5rem 0 5rem;
+}
+
+.featured-container h2 {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.featured-container h3 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  padding: 0 2rem;
+  margin-bottom: 4rem;
+}
   
-@media (min-width: 375px) {
+@media (min-width: 411px) {
 
   .fullName {
     font-size: 3.4rem;
@@ -74,20 +92,9 @@
   .social {
     font-size: 2.2rem;
   }
-
-}
-  
-@media (min-width: 600px) {
-  .fullName{
-    font-size: 3.8rem;
-  }
 }
   
 @media (min-width: 768px) {
-
-  .heroSection {
-    padding: 10rem 0 10rem;
-  }
 
   .nameAboutWrapper{
     display: flex;
@@ -99,7 +106,6 @@
 
   .fullName {
     font-size: 3.6rem;
-    padding: 0;
   }
 
   .about {
@@ -108,20 +114,11 @@
     padding-bottom: 1rem;
     font-size: 1.2rem;
   }
-
-  .socialWrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 4rem 0 0;
-
-  }
-
+  
   .social {
     flex-basis: 4rem;
   }
-}
+} 
   
 @media (min-width: 1024px) {
 
@@ -136,7 +133,14 @@
 
   .social {
     font-size: 2.5rem;
-    flex-basis: 4.5rem;
+  }
+
+  .featured-wrapper {
+    display: flex;
+  }
+
+  .featured-container h3 {
+    font-size: 1.2rem
   }
 
 }
@@ -172,6 +176,5 @@
   
   .nameAboutWrapper{
     width: 70%;
-
   }
 }
