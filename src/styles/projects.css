@@ -9,3 +9,8 @@
     box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.432), inset -3px -3px 3px rgba(0, 0, 0, 0.432) ;
     border-radius: 10px; */
 }
+
+.bootcamp {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}

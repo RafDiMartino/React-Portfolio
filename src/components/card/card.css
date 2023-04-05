@@ -39,7 +39,7 @@
 }
 
 .card-wrapper:hover .description-wrapper {
-    height: 24.35rem;
+    height: 20rem;
 }
 
 .card-wrapper:hover .title {
@@ -93,12 +93,18 @@
         width: 22.5rem;
         height: 27rem;  
     }
+    .card-wrapper:hover .description-wrapper {
+        height: 23rem;
+    }
 }
 
 @media (min-width: 411px) {
     .card-wrapper {    
         width: 24rem;
         height: 28.5rem;  
+    }
+    .card-wrapper:hover .description-wrapper {
+        height: 25rem;
     }
 }
 

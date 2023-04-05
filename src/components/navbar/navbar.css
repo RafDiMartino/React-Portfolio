@@ -49,17 +49,16 @@ nav {
     border-right: 1px solid var(--gold);
     border-bottom: 1px solid var(--gold);
     border-radius: 0 0 5px 5px;
-    width: 7rem;
+    width: 10rem;
+    padding: 1.5rem 0 .5rem 0;
 }
 
 .open-dropdown p {
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     color: var(--white);
 }
 
-.open-dropdown .react {
-    padding-top: 1rem;
-}
+
 
 .open-dropdown p:hover {
     color: var(--gold);

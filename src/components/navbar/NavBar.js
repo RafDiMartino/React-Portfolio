@@ -36,7 +36,8 @@ const NavBar2 = () => {
                     <FaCaretDown/>
                     {dropdown && (
                         <div className="open-dropdown">
-                            <Link  to="react-projects"><p className="react">REACT</p></Link>
+                            <Link  to="edx-bootcamp"><p>edX BOOTCAMP</p></Link>
+                            <Link  to="react-projects"><p>REACT</p></Link>
                             <Link  to="html-css-js-projects"><p>HTML CSS JS</p></Link>
                         </div>
                     )}
