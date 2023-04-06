@@ -28,8 +28,8 @@ const NavBar2 = () => {
 
 
     return (
-        <nav>
-            <div className="nav-wrapper">
+        <header>
+            <nav className="nav-wrapper">
                 <Link to="/"><div className="home">HOME</div></Link>
                 <div ref={ref} onClick={toggleDropdown} className="projects">
                     PROJECTS
@@ -43,8 +43,8 @@ const NavBar2 = () => {
                     )}
                 </div>
                 <a href="mailto:r.dimartino.uk@gmail.com"><div className="contact">CONTACTS</div></a>
-            </div>
-        </nav>
+            </nav>
+        </header>
     )
 }
 

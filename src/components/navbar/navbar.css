@@ -1,4 +1,4 @@
-nav {
+header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,14 +15,14 @@ nav {
 .nav-wrapper {
     display: flex;
     width: 90%;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .home, .projects, .contact {
-    padding-top: 1rem;
     width: 7rem;
     font-size:0.9rem;
+    font-weight: bold;
 }
 
 .nav-wrapper div:hover {
@@ -41,15 +41,19 @@ nav {
     cursor: pointer;
 }
 
+.projects > * {
+    margin: 0 .2rem;
+}
+
 .open-dropdown {
     position: absolute;
-    top: calc(100% + 1.4rem);
+    top: calc(100% + 1.93rem);
     background-color: var(--black2);
     border-left: 1px solid var(--gold);
     border-right: 1px solid var(--gold);
     border-bottom: 1px solid var(--gold);
     border-radius: 0 0 5px 5px;
-    width: 10rem;
+    width: 12rem;
     padding: 1.5rem 0 .5rem 0;
 }
 
@@ -58,18 +62,10 @@ nav {
     color: var(--white);
 }
 
-
-
 .open-dropdown p:hover {
     color: var(--gold);
 }
 
 @media only screen and (min-width: 1024px) {
-    nav{
-        height: 5rem;
-    }
 
-    .nav-wrapper {
-        width: 30%;
-    }
 }
