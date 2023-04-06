@@ -30,7 +30,7 @@
     width: 100%;
     overflow: hidden;
     transition: .3s ease;
-    background-color: rgba(47, 48, 51, 0.877);
+    background-color: rgba(0, 0, 0, 0.877);
     border-radius: 5px 5px 0 0;
     text-align: center;
     -webkit-transform: translate(0%, -100%);
@@ -39,7 +39,7 @@
 }
 
 .card-wrapper:hover .description-wrapper {
-    height: 20rem;
+    height: 100%;
 }
 
 .card-wrapper:hover .title {
@@ -93,19 +93,15 @@
         width: 22.5rem;
         height: 27rem;  
     }
-    .card-wrapper:hover .description-wrapper {
-        height: 23rem;
-    }
+
 }
 
 @media (min-width: 411px) {
     .card-wrapper {    
         width: 24rem;
-        height: 28.5rem;  
+        height: 28.55rem;  
     }
-    .card-wrapper:hover .description-wrapper {
-        height: 25rem;
-    }
+
 }
 
 @media (min-width: 1024px) {

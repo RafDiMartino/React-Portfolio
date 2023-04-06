@@ -10,6 +10,7 @@ header {
     background-color: var(--black2);
     border-bottom: 1px solid var(--gold);
     z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .nav-wrapper {
@@ -47,7 +48,7 @@ header {
 
 .open-dropdown {
     position: absolute;
-    top: calc(100% + 1.93rem);
+    top: calc(100% + 2.1rem);
     background-color: var(--black2);
     border-left: 1px solid var(--gold);
     border-right: 1px solid var(--gold);
@@ -64,8 +65,4 @@ header {
 
 .open-dropdown p:hover {
     color: var(--gold);
-}
-
-@media only screen and (min-width: 1024px) {
-
 }

@@ -1,10 +1,10 @@
 :root {
-  --black: rgb(47, 48, 51);
-  /* --black: #0e0e0e;
-  --black2: rgba(44, 44, 44, 0.966);
-  /* --black2: #0e0e0ef3;
+  --black: rgb(31, 31, 34);
+  /* --black: #0e0e0e;*/
+  --black2: rgba(28, 28, 28, 0.966);
+  /* --black2: #0e0e0ef3;*/
   /* --black2: rgba(85, 88, 99, 0.966); */
-  --white: #f8f8f8;
+  --white: #ffffff;
   --gold: rgb(200,165,106);
 }
   

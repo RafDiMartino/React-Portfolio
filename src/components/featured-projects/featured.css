@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 0 2rem;
+    box-shadow: rgba(0, 0, 0, 0.233) 1px 3px 5px 1px, rgba(0, 0, 0, 0.233) -1px 3px 5px 1px;
 }
 
 .featured img {
@@ -33,6 +34,7 @@
 
 .featured:hover .featured-description {
     opacity: 1;
+    background-color: rgba(0, 0, 0, 0.877);
 }
 
 @media (min-width: 411px) {
@@ -43,7 +45,7 @@
 
     .featured-description {
         width: 23rem;
-        height: 23.2rem;
+        height: 23.05rem;
     }
 }
 
