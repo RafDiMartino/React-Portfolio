@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d55317b6.chunk.css",
-    "main.js": "/static/js/main.c5ce25da.chunk.js",
-    "main.js.map": "/static/js/main.c5ce25da.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e51b4b16.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e51b4b16.js.map",
-    "static/js/2.54638c7c.chunk.js": "/static/js/2.54638c7c.chunk.js",
-    "static/js/2.54638c7c.chunk.js.map": "/static/js/2.54638c7c.chunk.js.map",
-    "static/js/3.5320fa44.chunk.js": "/static/js/3.5320fa44.chunk.js",
-    "static/js/3.5320fa44.chunk.js.map": "/static/js/3.5320fa44.chunk.js.map",
+    "main.css": "/static/css/main.8516be09.chunk.css",
+    "main.js": "/static/js/main.96a1e54e.chunk.js",
+    "main.js.map": "/static/js/main.96a1e54e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.520c7ab6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.520c7ab6.js.map",
+    "static/js/2.3358c558.chunk.js": "/static/js/2.3358c558.chunk.js",
+    "static/js/2.3358c558.chunk.js.map": "/static/js/2.3358c558.chunk.js.map",
+    "static/js/3.3c334e79.chunk.js": "/static/js/3.3c334e79.chunk.js",
+    "static/js/3.3c334e79.chunk.js.map": "/static/js/3.3c334e79.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d55317b6.chunk.css.map": "/static/css/main.d55317b6.chunk.css.map",
-    "static/js/2.54638c7c.chunk.js.LICENSE.txt": "/static/js/2.54638c7c.chunk.js.LICENSE.txt",
+    "static/css/main.8516be09.chunk.css.map": "/static/css/main.8516be09.chunk.css.map",
+    "static/js/2.3358c558.chunk.js.LICENSE.txt": "/static/js/2.3358c558.chunk.js.LICENSE.txt",
     "static/media/WorkInProgress3.167cfb36.jpg": "/static/media/WorkInProgress3.167cfb36.jpg",
     "static/media/bootstrap.98585727.svg": "/static/media/bootstrap.98585727.svg",
     "static/media/calculator.2be8ea3a.PNG": "/static/media/calculator.2be8ea3a.PNG",
     "static/media/challenge-1.14825d6d.png": "/static/media/challenge-1.14825d6d.png",
-    "static/media/challenge-11.21c7d5de.png": "/static/media/challenge-11.21c7d5de.png",
+    "static/media/challenge-11.a61e640c.png": "/static/media/challenge-11.a61e640c.png",
+    "static/media/challenge-12.f4ecaf98.png": "/static/media/challenge-12.f4ecaf98.png",
+    "static/media/challenge-13.43daabd6.png": "/static/media/challenge-13.43daabd6.png",
     "static/media/challenge-2.5d7eb5d4.png": "/static/media/challenge-2.5d7eb5d4.png",
     "static/media/challenge-3.66e639f3.png": "/static/media/challenge-3.66e639f3.png",
     "static/media/challenge-4.3918ee7f.png": "/static/media/challenge-4.3918ee7f.png",
@@ -66,9 +68,9 @@
     "static/media/weather-app.0f3e3e41.PNG": "/static/media/weather-app.0f3e3e41.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.e51b4b16.js",
-    "static/js/2.54638c7c.chunk.js",
-    "static/css/main.d55317b6.chunk.css",
-    "static/js/main.c5ce25da.chunk.js"
+    "static/js/runtime-main.520c7ab6.js",
+    "static/js/2.3358c558.chunk.js",
+    "static/css/main.8516be09.chunk.css",
+    "static/js/main.96a1e54e.chunk.js"
   ]
 }
