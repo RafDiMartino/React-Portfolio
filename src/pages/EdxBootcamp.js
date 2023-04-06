@@ -15,6 +15,8 @@ import challenge7 from "../assets/edx-bootcamp-imgs/challenge-7.png"
 import challenge8 from "../assets/edx-bootcamp-imgs/challenge-8.png"
 import project1 from "../assets/edx-bootcamp-imgs/project-1.png"
 import challenge11 from "../assets/edx-bootcamp-imgs/challenge-11.png"
+import challenge12 from "../assets/edx-bootcamp-imgs/challenge-12.png"
+import challenge13 from "../assets/edx-bootcamp-imgs/challenge-13.png"
 
 function EdxBootcamp() {
     return (
@@ -24,10 +26,23 @@ function EdxBootcamp() {
                 title="PROJECTS"
             />
             <div className="projects-container">
+                <Card
+                    imageUrl={challenge13}
+                    title="React Portfolio"
+                    description="In this assignement my task was to create a Personal Portfolio Webpage using React.js, and React-router-dom."
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/module-13-challenge-react-portfolio" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                    projectLink={"https://rafdimartino.github.io/module-13-challenge-react-portfolio/"}
+                />
+                <CardNoButton
+                    imageUrl={challenge12}
+                    title="Team Profile Generator"
+                    description="In this assignment my task was to create a command-line application that generates a webpage from user's input using Inquirer.js. Built in JavaScript, Node.js, uses ES6 sintax and Jest.js for unit testing"
+                    repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/module-12-challenge-team-profile-generator" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
+                />
                 <CardNoButton
                     imageUrl={challenge11}
                     title="README Generator"
-                    description="In this assignment my task was to create a command-line application that generates a README.md file from user's input using Inquirer.js, the application is built in Javascript, Node.js and uses ES6 sintax."
+                    description="In this assignment my task was to create a command-line application that generates a README.md file from user's input using Inquirer.js, the application is built in JavaScript, Node.js and uses ES6 sintax."
                     repoLink={<a className="card-anchor" href="https://github.com/RafDiMartino/module-11-challenge-professional-readme-generator" target="_blank" rel="noreferrer" aria-label="github"><FaGithub className="github" /></a>}
                 />
                 <Card
