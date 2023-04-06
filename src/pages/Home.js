@@ -27,7 +27,7 @@ function Home() {
             </div>
             <div className="featured-container">
                 <h2>Freelance Work</h2>
-                <h3>Websites that I have built and that I am maintaining as a freelance developer</h3>
+                <p>Websites that I have built and that I am maintaining as a freelance developer</p>
                 <div className="featured-wrapper">
                     <Featured 
                         img={Duplex}
