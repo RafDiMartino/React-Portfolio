@@ -6,6 +6,7 @@
   /* --black2: rgba(85, 88, 99, 0.966); */
   --white: #ffffff;
   --gold: rgb(200,165,106);
+  --max-width: 1350px; 
 }
   
 * {
@@ -58,4 +59,17 @@ button {
 button:hover{
   background-color: var(--gold);
 }
-  
+
+.button {
+  text-decoration: none;
+  color: var(--black);
+  background-color: var(--gold);
+  border-radius: 2px;
+  padding: .5rem 1rem;
+  margin: 1rem;
+  box-shadow: black 2px 3px 1px;
+}
+
+.button:hover {
+  background-color: var(--white);
+}

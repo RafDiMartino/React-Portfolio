@@ -65,7 +65,7 @@
   align-items: center;
   background-color: var(--black);
   color: var(--white);
-  padding: 5rem 0 5rem;
+  padding: 0 0 5rem 0;
 }
 
 .featured-container h2 {
