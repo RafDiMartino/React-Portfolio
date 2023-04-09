@@ -40,6 +40,9 @@ header {
     align-items: center;
     justify-content: center;
 }
+.project {
+    cursor: pointer;
+}
 
 .projects > * {
     margin: 0 .2rem;

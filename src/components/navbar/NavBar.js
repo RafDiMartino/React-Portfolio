@@ -32,7 +32,7 @@ const NavBar2 = () => {
             <nav className="nav-wrapper">
                 <Link to="/"><div className="home">HOME</div></Link>
                 <div ref={ref} onClick={toggleDropdown} className="projects">
-                    PROJECTS
+                    <p className='project'>PROJECTS</p>
                     <FaCaretDown/>
                     {dropdown && (
                         <div className="open-dropdown">
