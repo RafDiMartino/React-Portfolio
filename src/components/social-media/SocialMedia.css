@@ -10,9 +10,20 @@
 .social-media-wrapper  a{
     margin: .5rem;
     transition: all .3s ease-in-out;
-    
+    font-weight: bold;
 }
 
 .social-media-wrapper  a:hover:not(:last-child) svg{
     fill: var(--gold);
 }
+
+.social-media-wrapper a:last-child{
+    margin: 2rem auto 0 auto;
+}
+
+@media (min-width: 376px) {
+
+    .social-media-wrapper a:last-child{
+        margin: .5rem;
+    }
+  }
