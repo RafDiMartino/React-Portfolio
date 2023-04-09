@@ -21,3 +21,7 @@
 .social-media-wrapper  a:hover svg{
     fill: var(--gold);
 }
+
+.cv-button {
+    font-weight: 600;
+}

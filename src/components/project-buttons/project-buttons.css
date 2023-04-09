@@ -19,5 +19,6 @@
 .home-button {
     font-size: 1.1rem;
     padding: 1rem 1.2rem;
+    font-weight: 600;
     cursor: pointer;
 }
