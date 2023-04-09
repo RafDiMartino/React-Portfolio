@@ -1,0 +1,23 @@
+.projects-wrapper {
+    padding: 5rem 2rem;
+}
+
+.project-title {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 2.5rem;
+}
+
+.projects-wrapper p{
+    color: var(--white);
+}
+
+.buttons-wrapper {
+    margin-top: 3rem;
+}
+
+.home-button {
+    font-size: 1.1rem;
+    padding: 1rem 1.2rem;
+    cursor: pointer;
+}

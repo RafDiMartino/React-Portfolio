@@ -6,6 +6,7 @@ import Featured from "../components/featured-projects/Featured"
 import WorkInProgress from "../assets/react-projects-imgs/WorkInProgress3.jpg"
 import Duplex from "../assets/featured-projects-imgs/duplex.png"
 import Lab from "../assets/featured-projects-imgs/lab.png"
+import ProjectButtons from "../components/project-buttons/ProjectButtons"
 
 function Home() {
     return (
@@ -41,6 +42,7 @@ function Home() {
                     />
                 </div>
             </div>
+            <ProjectButtons />
             <Skills />
         </div>
     )

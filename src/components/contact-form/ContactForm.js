@@ -61,7 +61,9 @@ function ContactForm() {
                 <textarea name='message' value={formData.message} onChange={handleChange} placeholder='Enter your message' cols='30' rows='10'></textarea>
                 <button className='button' type='submit'>Submit</button>
             </form>
-            {success && <p className='success-message'>Form submitted successfully!</p>}
+            {success && 
+                <p className='success-message'>Message submitted successfully!</p>
+            }
         </div>
     )
 }

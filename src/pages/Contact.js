@@ -15,7 +15,6 @@ function Contact() {
         <div className='form-wrapper'>
           <ContactForm />
         </div>
-
       </div>
     </div>
   )

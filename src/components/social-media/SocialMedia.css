@@ -1,29 +1,23 @@
+.social-container {
+    margin-bottom: 2rem;
+}
+
 .social-media-wrapper {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     transition: all 1s ease-in-out;
     flex-wrap: wrap;
+    margin-bottom: 3rem;
 }
 
 .social-media-wrapper  a{
-    margin: .5rem;
+    margin: .5rem 2rem;
     transition: all .3s ease-in-out;
     font-weight: bold;
 }
 
-.social-media-wrapper  a:hover:not(:last-child) svg{
+.social-media-wrapper  a:hover svg{
     fill: var(--gold);
 }
-
-.social-media-wrapper a:last-child{
-    margin: 2rem auto 0 auto;
-}
-
-@media (min-width: 376px) {
-
-    .social-media-wrapper a:last-child{
-        margin: .5rem;
-    }
-  }
