@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.928ddc2a.chunk.css",
-    "main.js": "/static/js/main.b1d1dfc9.chunk.js",
-    "main.js.map": "/static/js/main.b1d1dfc9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.520c7ab6.js",
-    "runtime-main.js.map": "/static/js/runtime-main.520c7ab6.js.map",
-    "static/js/2.3358c558.chunk.js": "/static/js/2.3358c558.chunk.js",
-    "static/js/2.3358c558.chunk.js.map": "/static/js/2.3358c558.chunk.js.map",
-    "static/js/3.3c334e79.chunk.js": "/static/js/3.3c334e79.chunk.js",
-    "static/js/3.3c334e79.chunk.js.map": "/static/js/3.3c334e79.chunk.js.map",
+    "main.css": "/static/css/main.a6e7c09d.chunk.css",
+    "main.js": "/static/js/main.9da1e85b.chunk.js",
+    "main.js.map": "/static/js/main.9da1e85b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7ca049a7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7ca049a7.js.map",
+    "static/js/2.aa3919e7.chunk.js": "/static/js/2.aa3919e7.chunk.js",
+    "static/js/2.aa3919e7.chunk.js.map": "/static/js/2.aa3919e7.chunk.js.map",
+    "static/js/3.cb3637a7.chunk.js": "/static/js/3.cb3637a7.chunk.js",
+    "static/js/3.cb3637a7.chunk.js.map": "/static/js/3.cb3637a7.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.928ddc2a.chunk.css.map": "/static/css/main.928ddc2a.chunk.css.map",
-    "static/js/2.3358c558.chunk.js.LICENSE.txt": "/static/js/2.3358c558.chunk.js.LICENSE.txt",
+    "static/css/main.a6e7c09d.chunk.css.map": "/static/css/main.a6e7c09d.chunk.css.map",
+    "static/js/2.aa3919e7.chunk.js.LICENSE.txt": "/static/js/2.aa3919e7.chunk.js.LICENSE.txt",
     "static/media/WorkInProgress3.167cfb36.jpg": "/static/media/WorkInProgress3.167cfb36.jpg",
     "static/media/bootstrap.98585727.svg": "/static/media/bootstrap.98585727.svg",
     "static/media/calculator.2be8ea3a.PNG": "/static/media/calculator.2be8ea3a.PNG",
@@ -52,6 +52,7 @@
     "static/media/portfolio.a7b4aac3.PNG": "/static/media/portfolio.a7b4aac3.PNG",
     "static/media/project-1.cfbf3f49.png": "/static/media/project-1.cfbf3f49.png",
     "static/media/quote-gen.a383e705.png": "/static/media/quote-gen.a383e705.png",
+    "static/media/raffaele-di-martino-cv.e2f34c75.pdf": "/static/media/raffaele-di-martino-cv.e2f34c75.pdf",
     "static/media/react-lab.994072a6.PNG": "/static/media/react-lab.994072a6.PNG",
     "static/media/react-portfolio.cbcef621.PNG": "/static/media/react-portfolio.cbcef621.PNG",
     "static/media/react.e68b35f4.svg": "/static/media/react.e68b35f4.svg",
@@ -68,9 +69,9 @@
     "static/media/weather-app.0f3e3e41.PNG": "/static/media/weather-app.0f3e3e41.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.520c7ab6.js",
-    "static/js/2.3358c558.chunk.js",
-    "static/css/main.928ddc2a.chunk.css",
-    "static/js/main.b1d1dfc9.chunk.js"
+    "static/js/runtime-main.7ca049a7.js",
+    "static/js/2.aa3919e7.chunk.js",
+    "static/css/main.a6e7c09d.chunk.css",
+    "static/js/main.9da1e85b.chunk.js"
   ]
 }
