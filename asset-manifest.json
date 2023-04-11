@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dee8771f.chunk.css",
-    "main.js": "/static/js/main.b0bb95a3.chunk.js",
-    "main.js.map": "/static/js/main.b0bb95a3.chunk.js.map",
+    "main.js": "/static/js/main.c7fda925.chunk.js",
+    "main.js.map": "/static/js/main.c7fda925.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a2967d21.js",
     "runtime-main.js.map": "/static/js/runtime-main.a2967d21.js.map",
     "static/js/2.21f097a2.chunk.js": "/static/js/2.21f097a2.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.dee8771f.chunk.css.map": "/static/css/main.dee8771f.chunk.css.map",
     "static/js/2.21f097a2.chunk.js.LICENSE.txt": "/static/js/2.21f097a2.chunk.js.LICENSE.txt",
+    "static/media/Raffaele-Di-Martino-Resume.7d666d81.pdf": "/static/media/Raffaele-Di-Martino-Resume.7d666d81.pdf",
     "static/media/WorkInProgress3.167cfb36.jpg": "/static/media/WorkInProgress3.167cfb36.jpg",
     "static/media/bootstrap.98585727.svg": "/static/media/bootstrap.98585727.svg",
     "static/media/calculator.2be8ea3a.PNG": "/static/media/calculator.2be8ea3a.PNG",
@@ -52,7 +53,6 @@
     "static/media/portfolio.a7b4aac3.PNG": "/static/media/portfolio.a7b4aac3.PNG",
     "static/media/project-1.cfbf3f49.png": "/static/media/project-1.cfbf3f49.png",
     "static/media/quote-gen.a383e705.png": "/static/media/quote-gen.a383e705.png",
-    "static/media/raffaele-di-martino-cv.e2f34c75.pdf": "/static/media/raffaele-di-martino-cv.e2f34c75.pdf",
     "static/media/react-lab.994072a6.PNG": "/static/media/react-lab.994072a6.PNG",
     "static/media/react-portfolio.cbcef621.PNG": "/static/media/react-portfolio.cbcef621.PNG",
     "static/media/react.e68b35f4.svg": "/static/media/react.e68b35f4.svg",
@@ -72,6 +72,6 @@
     "static/js/runtime-main.a2967d21.js",
     "static/js/2.21f097a2.chunk.js",
     "static/css/main.dee8771f.chunk.css",
-    "static/js/main.b0bb95a3.chunk.js"
+    "static/js/main.c7fda925.chunk.js"
   ]
 }
