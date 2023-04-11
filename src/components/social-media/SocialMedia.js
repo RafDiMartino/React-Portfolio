@@ -1,6 +1,6 @@
 import React from 'react'
 import "./SocialMedia.css"
-import CV from "../../assets/docs/raffaele-di-martino-cv.pdf"
+import CV from "../../assets/docs/Raffaele-Di-Martino-Resume.pdf"
 
 
 function SocialMedia() {
